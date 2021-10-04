@@ -1,5 +1,4 @@
 import React from 'react';
-import  * as echarts from 'echarts';
 import '../App.css'
 
 import ReactECharts from 'echarts-for-react';
@@ -305,19 +304,19 @@ export const DataScreen=()=> {
             
                 <h1 className="text-center">IMAGES</h1>
                 <div className="box col-3">
-                    <img src="../images/descarga.jpg"/>
+                    <img src="../images/descarga.jpg" alt="img1"/>
                     <span>fuego</span>
                 </div>
                 <div className="box col-3">
-                    <img src="../images/descarga.jpg"/>
+                    <img src="../images/descarga.jpg" alt="img2"/>
                     <span>tierra</span>
                 </div>
                 <div className="box col-3">
-                    <img src="../images/descarga.jpg"/>
+                    <img src="../images/descarga.jpg" alt="img3"/>
                     <span>agua</span>
                 </div>
                 <div className="box col-3">
-                    <img src="../images/descarga.jpg"/>
+                    <img src="../images/descarga.jpg" alt="img4"/>
                     <span>Hola</span>
                 </div>
             </div>

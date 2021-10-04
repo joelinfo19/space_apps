@@ -1,8 +1,6 @@
 // import logo from './logo.svg';
 //import './App.css';
-import  * as echarts from 'echarts';
-import ReactECharts from 'echarts-for-react';
-import {BrowserRouter, Link,useHistory} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import { Map } from './components/Map';
 
 export const App=() =>{
