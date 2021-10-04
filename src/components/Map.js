@@ -16,8 +16,18 @@ export const Map=({location,zoomlevel,text})=> {
     const {address,center,zoom}=location
     return (
         <div style={{ height: '95vh', width: '100%' }}>
-            <h2 className="map-h2">HOLAAAAAAAAA</h2>
-
+            {/* <h2 className="map-h2">"Chascakunac Chaupinpi"</h2>
+            <blockquote class="blockquote text-center">
+                <p>"Chascakunac Chaupinpi"</p>
+            </blockquote> */}
+            <figure class="text-center">
+            <blockquote class="blockquote">
+                <p>Chascakunac Chaupinpi</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                 <cite title="Source Title">DIODE</cite>
+            </figcaption>
+            </figure>
             <div className="google-map">
             <GoogleMapReact
                 bootstrapURLKeys={{ key: 'AIzaSyCcfQ0CpwCnWbXz043Q0FUgYfD7FIi_OMI' }}

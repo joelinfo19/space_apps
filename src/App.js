@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-//import './App.css';
+import './App.css';
 import { Link} from 'react-router-dom'
 import { Map } from './components/Map';
 
@@ -20,7 +20,7 @@ export const App=() =>{
   };
   
   return (
-    <div className="container bg-primary">
+    <div className="container bg-white">
       <div className="d-flex flex-column align-items-center" >
         <div className="card " style={{width: '18rem'}}>
           <img src="./images/logo.jpeg" className="card-img-top" alt="hola"/>
@@ -28,18 +28,20 @@ export const App=() =>{
         </div>
        
           <Map location={location} zoomlevel={location.zoom} text={location.address}/>
+        
         <div className="d-flex flex-column">
-          <span className="fs-4">
+          
+          <span className="fs-4 text-success">
             Latitud: {location.center.lat}
           </span>
-          <span className="fs-4">
+          <span className="fs-4 text-success">
             Longitud: {location.center.lng}
           </span>
         </div>
         
         <div className="my-2">
-          <Link to="/data" className="btn btn-success">
-            PASAAAAAAAAAAAAAAAAA
+          <Link to="/data" className="btn btn-success text-white">
+            BUSCAR
           </Link>
        
         </div>
